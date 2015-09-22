@@ -1,0 +1,13 @@
+{application, undefiner,
+[
+    {description, "convert json null to undefined via jsx operations"},
+    {vsn, "1.0.0"},
+    {modules, [undefiner]},
+    {registered, []},
+    {applications, [
+        jsx,
+        kernel,
+        stdlib
+    ]},
+    {env, []}
+]}.
